@@ -96,6 +96,23 @@ header .buy {
   height: 200px;
 }
 
+.bio {
+  margin-top: 15px;
+  padding: 0 15%;
+}
+
+.bio p{
+  text-align: center;
+  font-size: 24px;
+  margin: 10px 0;
+
+}
+
+.bio p a {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 footer {
   color: white;
   background-color: black;
