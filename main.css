@@ -1,0 +1,166 @@
+/********************************************
+Generic
+********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Saira", sans-serif;
+  line-height: 1.5em;
+  word-spacing: 0.25em;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Saira", sans-serif;
+  line-height: 1.5em;
+  word-spacing: 0.25em;
+  font-weight: bold;
+  text-align: center;
+}
+.hear a:link a:visited {
+  color: black;
+  font-size: 40px;
+  background-color: black;
+  font-family: "Saira", sans-serif;
+  text-align: left;
+  float: left;
+  text-decoration: none;
+}
+h3,
+a:link a:visited {
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Saira", sans-serif;
+  line-height: 1.5em;
+  word-spacing: 0.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-color: #000;
+  align-items: center;
+  padding: 5px 0;
+}
+
+header .trackstream {
+  margin-right: auto;
+  margin-top: -14px;
+  margin-left: 15px;
+}
+
+header .buy {
+  margin-left: auto;
+  margin-top: -14px;
+  margin-right: 15px;
+}
+
+.trackstream {
+  color: white;
+  font-size: 40px;
+  /* background-color: black; */
+  font-family: "Saira", sans-serif;
+  text-align: left;
+  float: left;
+  text-decoration: none;
+}
+.buy {
+  color: white;
+  font-size: 40px;
+  /* background-color: black; */
+  font-family: "Saira", sans-serif;
+  text-align: right;
+  text-decoration: none;
+  float: right;
+}
+.login,
+a:link,
+a:visited {
+  color: white;
+  font-size: 20px;
+  /* background-color: black; */
+  font-family: "Saira", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+.top {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+}
+.middle {
+  color: black;
+  text-decoration: none;
+}
+table {
+  height: 40%;
+  left: 40%;
+  margin: 0px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 100%;
+}
+thead th {
+  color: rgb(254, 254, 254);
+  color: rgba(254, 254, 254, 1);
+  font-size: 25px;
+  text-align: center;
+  background: -webkit-linear-gradient(black, white);
+  font-family: "Saira", sans-serif;
+}
+tr {
+  color: rgb(254, 254, 254);
+  color: rgba(254, 254, 254, 1);
+  font-size: 25px;
+  text-align: center;
+}
+th,
+td {
+  color: rgb(54, 74, 101);
+  color: rgba(54, 74, 101, 0.5);
+  font-size: 25px;
+  text-align: center;
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Saira", sans-serif;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+}
+
+/*this is a comment*/
+/*this is a comment*/
