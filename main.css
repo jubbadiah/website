@@ -99,6 +99,9 @@ header .buy {
   height: 250px;
   border-bottom: solid;
   border-bottom-color: #FE06FC;
+  border-top: solid;
+  border-top-color: #FE06FC;
+
  
   }
 
