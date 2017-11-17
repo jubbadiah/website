@@ -105,6 +105,7 @@ header .buy {
 .bio {
   margin-top: 15px;
   padding: 0 15%;
+  margin-bottom: 30px;
 }
 
 .bio p{
@@ -119,12 +120,39 @@ header .buy {
   text-transform: uppercase;
 }
 
+#so{
+  
+    top: 20px;
+    left: 20px;
+    border-bottom: solid;
+    border-bottom-color: #FE06FC;
+    border-top: solid;
+    border-top-color: #FE06FC;
+  }
+  
+  #playSound{
+    top: 200px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  #stopSound{
+  
+    top: 200px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+  
+  }
+
 .booking p{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   margin: 10px 0;
   font-family: 'Courgette', cursive;
-  margin-top: 110px;
+  margin-top: -25px;
+  
 }
 .booking p a {
   text-decoration: none;
