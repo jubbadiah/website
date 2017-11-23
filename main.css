@@ -1,17 +1,21 @@
 /********************************************
 Generic
 ********************************************/
-input [type="text"]{
-  color: #000;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #fff;
-  weight: bold;
+  font-weight: bold;
   font-family: "Saira", sans-serif; 
+}
+
+input[type="text"]{
+  color: #000;
+}
+
+input[type="password"]{
+  color: #000;
 }
 
 html {
@@ -64,7 +68,7 @@ header {
   background-color: #000;
   align-items: center;
   padding: 5px 0;
-}
+  }
 
 header .trackstream {
   margin-right: auto;
@@ -125,6 +129,23 @@ header .buy {
 .bio p a{
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+p2 {
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
+}
+
+
+
+p3 {
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
+}
+
+p4 {
+  font-family: 'Courgette', cursive;
+  font-size: 35px;
 }
 
 #so{
