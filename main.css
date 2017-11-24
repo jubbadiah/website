@@ -10,11 +10,7 @@ Generic
   font-family: "Saira", sans-serif; 
 }
 
-input[type="text"]{
-  color: #000;
-}
-
-input[type="password"]{
+input[type="password"],input[type="text"]{
   color: #000;
 }
 
@@ -108,8 +104,6 @@ header .buy {
   border-bottom-color: #FE06FC;
   border-top: solid;
   border-top-color: #FE06FC;
-
- 
   }
 
 .bio {
@@ -172,7 +166,68 @@ p4 {
     height: 20px;
   
   }
+/*this is play pause button*/
+.wrappercontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  margin: 10px 0;
+  border: solid 3px #FE06FC;
+}
 
+.wrapper {
+    width: calc(100% / 3);
+}
+
+.wrapper:not(:last-child) {
+  border-right: solid 2px #FE06FC;
+}
+
+nav{
+    background-color: white;
+    width: 640px;
+    padding-bottom: 3px;
+}
+
+.defaultBar{
+    width: 640px;
+    position: relative;
+    background-color: #606060;
+    height: 10px;
+}
+
+.progressBar{
+    position: absolute;
+    height: 10px;
+    background-color: #3498db;
+    width: 0px;
+}
+.playButton{
+    background-color: white;
+    border: none;
+    height: 32px;
+    width: 32px;
+    background-image: url(./play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.muteButton{
+    background-color: white;
+    border: none;
+    height: 32px;
+    width: 32px;
+    background-image: url(./speaker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.muteButton:active,#playButton:active {
+    position: relative; 
+    top:2px;
+}
+/*this is play puase button*/
 .booking p{
   text-align: center;
   font-size: 30px;
