@@ -65,7 +65,7 @@ header {
   padding: 5px 0;
   }
 
-header .trackstream {
+header .exclusives {
   margin-right: auto;
   margin-left: 15px;
   font-weight: bold;
@@ -77,7 +77,7 @@ header .buy {
   font-weight: bold;
 }
 
-.trackstream {
+.exclusives {
   /* background-color: black; */
   text-align: left;
   float: left;

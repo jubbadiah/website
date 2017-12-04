@@ -21,6 +21,11 @@ wrappers.forEach(wrapper => {
     }
 });
 
+function exclusive() {
+    $('.exclusives').hide();
+
+    $('.exclusives').fadeIn(1000);
+}
 
 
 // playButton.addEventListener('click', playOrPause, false);
