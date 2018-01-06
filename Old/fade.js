@@ -10,6 +10,8 @@ function fade() {
 
 
 
+
+
     $('.socialmedia').hide();
     $('.socialmedia').fadeIn(3000);
     //$('.exclusives').on('click', function () {

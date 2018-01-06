@@ -1,53 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "partials/base.html.twig" %}
+{% block title %}Home{% endblock %}
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Anti-Vibes</title>
-
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-	 crossorigin="anonymous">
-	<link href="./main.css" type="text/css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-
-	<script src="./popup.js"></script>
-	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-</head>
-
-<body>
-	<header>
-
-		<div class="exclusives">
-			<a href="./exclusives.html" target="_blank" align="center" a>Exclusives</a>
-
-		</div>
-
-		<div class="login">
-			<label>
-				<b>Username</b>
-			</label>
-			<input type="text" placeholder="Enter Username" name="uname" required>
-
-			<label>
-				<b>Password</b>
-			</label>
-			<input type="password" placeholder="Enter Password" name="psw" required>
-
-			<button type="submit">Login</button>
-			<input type="checkbox" checked="checked"> Remember me
-		</div>
-
-		<div class="buy">
-			<a href="./Buy.html" target="blank" align="center" a>Buy</a>
-		</div>
-	</header>
-
-
-	<div class="banner"></div>
-
-	<div class="bio">
+{% block content %}
+    <div class="banner"></div>
+    <div class="bio">
 		<p>Anti-vibes delivering Face scrunching bass/thumps.</p>
 		<p>With a producer that you will find on page 140 of the beats per minute bible.</p>
 		<p>Making Dubstep, Hard House and Bassline 4 or more years.</p>
@@ -119,35 +75,9 @@
 			<a href="./contact.html" target="_blank">here</a>
 		</p>
 	</div>
-
-	<footer>
-		<!--<p>
-						<a href="http://www.soundcloud.com/anti-vibes" target="_blank"></a>
-					<img src="C:\Users\Jubby\Desktop\Website\Untitled.png" /></a>
-				</p>-->
-		<div class="labels">
+{% endblock %}
+{% block footerExtra %}
+    <div class="labels">
 			<h4>Fed up of label's taking the piss, fed up of them owning my shit</h4>
 		</div>
-		<div class="socialmedia">
-			<a href="https://www.facebook.com/AntiVibesOfficial/" target="_blank">
-				<i class="fa fa-facebook-official" aria-hidden="true"></i>
-			</a>
-			<a href="https://soundcloud.com/anti-vibes" target="_blank">
-				<i class="fa fa-soundcloud" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.instagram.com/jubbydub" target="_blank">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.snapchat.com/add/jubbadiah" target="_blank">
-				<i class="fa fa-snapchat" aria-hidden="true"></i>
-			</a>
-			<a href="https://www.youtube.com/channel/UCeBtFr6CwFgtW4ySPKAZi0Q" target="_blank">
-				<i class="fa fa-youtube" aria-hidden="true"></i>
-			</a>
-		</div>
-	</footer>
-	<script type="text/javascript" src="./controls.js"></script>
-	<script type="text/javascript" src="./fade.js"></script>
-</body>
-
-</html>
+{% endblock %}
